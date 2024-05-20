@@ -1,0 +1,96 @@
+.position1 {
+    border: 1px solid red;
+    position: sticky;
+    top: 50px;
+    /* left: 10px; */
+}
+
+.container {
+    border: 1px solid black;
+    position: relative;
+    width: 10vw;
+    height: 10vh;
+}
+
+.position2 {
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.em-container {
+    font-size: 50px;
+    height: 2em;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+    /* height: 50vh; */
+    /* height: calc(50vh - 100px); */
+    height: max(50vh, 100px);
+    height: min(50vh, 100px);
+    width: 10vw;
+    border: 1px solid rgb(63, 54, 1);
+}
+
+h1::before {
+    content: 'Hello'
+}
+
+h1::after {
+    content: 'Bye'
+}
+
+p::first-letter {
+    color: red
+}
+
+p::first-line {
+    color: rgb(12, 64, 5)
+}
+
+::selection {
+    background-color: yellow
+}
+
+ul li:nth-child(2n +0) {
+    background-color: rgb(255, 0, 204)
+} 
+
+.container {
+    background-color: yellow;
+    width: 400px;
+    height: 400px;
+    margin: 80px auto;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background-color: rgb(60, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    /* transform: scale(0.5); */
+    /* transform: scaleX(0.5) scaleY(0.5); */
+    /* transform: skew(20deg, 40deg); */
+    /* transform: translate(50%, 50%); */
+    /* transform: rotateX(20deg) rotateY(20deg); */
+    /* transform: rotate(20deg); */
+    /* transform: rotate(45deg) scale(1.2) skew(30deg) translate(40px); */
+    transform-origin: top left;
+    transition: 0.5s ease;
+    float: right;
+}
+
+.box:hover {
+    transform: skew(20deg, 40deg);
+}

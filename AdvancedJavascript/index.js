@@ -103,3 +103,15 @@ People.prototype.getFullName = function (){
 
 console.log(person1.getFullName());
 console.log(person2.getFullName());
+
+
+// Prototypal Inheritance
+
+
+/*
+ call, bind, apply, fat arrow function, event bubbling, delegation, event loop,
+ DOM methods, getElement, HTML semantics, HTML Form, Akshay(async defer),generators,
+ JS Methods eg. map, reduce, slice, splice, filter, deep copy, shallow copy from mdn doc, setTimeout, setInterval, memoize
+
+ css-> grid, position, flex-box, selector
+*/
