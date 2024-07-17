@@ -1,3 +1,5 @@
+// call() method allows an object to use the method (function) of another object.
+
 let personName = {
     firstName: 'Arp',
     lastname: 'Mis',
